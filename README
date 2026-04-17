@@ -1,0 +1,4 @@
+1. HOW TO RUN:
+    docker compose up
+2. raw_id uses random.choice lib because of the 13-digit limit. This may present duplicated result.
+3. Confused with the raw_id, should it be generated per ingestion or per entries item? Currently the former.
